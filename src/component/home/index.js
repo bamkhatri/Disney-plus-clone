@@ -1,5 +1,6 @@
 import React from 'react'
 import ImgSlider from '../slider'
+import Viewer from '../viewer'
 
 import './home.css'
 
@@ -13,6 +14,7 @@ function Home() {
       }}
     >
       <ImgSlider />
+      <Viewer />
     </main>
   )
 }
