@@ -1,5 +1,6 @@
 import React from 'react'
-import ImgSlider from '../imgSlider'
+import ImgSlider from '../slider'
+
 import './home.css'
 
 function Home() {

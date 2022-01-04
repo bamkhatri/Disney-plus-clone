@@ -1,5 +1,5 @@
 import React from 'react'
-import './imgSlider'
+import './imgSlider.css'
 
 function ImgSlider() {
   return <div>Image SLider</div>
