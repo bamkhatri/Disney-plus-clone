@@ -3,6 +3,7 @@
   padding: 0 calc(3.5vw + 5px);
   background: #090b13;
   position: relative;
+  overflow-x: hidden;
 }
 .container::before {
   position: absolute;

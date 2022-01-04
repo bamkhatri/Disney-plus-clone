@@ -8,8 +8,8 @@ function Home() {
     <main
       className='container'
       style={{
-        background: `url('/images/home-background.png') center center / cover no-repeat
-    fixed`,
+        background: `url('/images/home-background.png') center center / cover
+      no-repeat fixed`,
       }}
     >
       <ImgSlider />
