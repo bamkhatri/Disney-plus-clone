@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css'
 function Header() {
   return (
-    <nav className='nav'>
+    <nav className='navbar'>
       <img className='logo' src='/images/logo.svg' alt='logo' />
       <div className='nav-menu'>
         <a>
