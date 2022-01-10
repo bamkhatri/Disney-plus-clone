@@ -1,4 +1,5 @@
 import React from 'react'
+import Movies from '../movies'
 import ImgSlider from '../slider'
 import Viewer from '../viewer'
 
@@ -15,6 +16,7 @@ function Home() {
     >
       <ImgSlider />
       <Viewer />
+      <Movies />
     </main>
   )
 }
