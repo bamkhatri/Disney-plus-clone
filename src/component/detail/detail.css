@@ -1,0 +1,116 @@
+.detail-container {
+  min-height: calc(100vh - 70px);
+  padding: 0 calc(3.5vw + 5px);
+
+  position: relative;
+  overflow-x: hidden;
+}
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.8;
+}
+.background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.div-image {
+  height: 30vh;
+  min-height: 170px;
+  width: 35vw;
+  min-width: 200px;
+}
+.div-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.play-button button {
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 0px 24px;
+  margin-right: 22px;
+  display: flex;
+  align-items: center;
+  height: 56px;
+  background: rb(249, 249, 249);
+  border: none;
+  letter-spacing: 1.8px;
+  cursor: pointer;
+}
+
+.play-button button:hover {
+  background: rgb(198, 198, 198);
+}
+.trailer-button button {
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 0px 24px;
+  margin-right: 22px;
+  display: flex;
+  align-items: center;
+  height: 56px;
+  background: rgb(0, 0, 0, 0.3);
+  border: 1px solid rgb(249, 249, 249);
+  color: rgb(249, 249, 249);
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.trailer-button button:hover {
+  background: rgb(198, 198, 198);
+}
+.add-button button {
+  margin-right: 16px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.add-button button span {
+  font-size: 30px;
+  color: white;
+}
+
+.group-watch button {
+  margin-right: 16px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.6);
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.subtitle {
+  color: rgb(249, 249, 249);
+  font-size: 15px;
+  min-height: 20px;
+  margin-top: 26px;
+}
+
+.discription {
+  color: rgb(249, 249, 249);
+  font-size: 20px;
+  min-height: 20px;
+  margin-top: 16px;
+}
