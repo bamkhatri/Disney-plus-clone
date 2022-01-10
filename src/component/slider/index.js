@@ -23,6 +23,9 @@ function ImgSlider() {
       <div className='wrap'>
         <img src='/images/slider-badging.jpg' />
       </div>
+      <div className='wrap'>
+        <img src='/images/slider-badging.jpg' />
+      </div>
     </Slider>
   )
 }
