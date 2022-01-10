@@ -18,13 +18,13 @@ function ImgSlider() {
   return (
     <Slider {...settings} className='carousel'>
       <div className='wrap'>
-        <img src='/images/slider-badging.jpg' alt='img' />
+        <img src='/images/slider-badging.jpg' alt='image' />
       </div>
       <div className='wrap'>
-        <img src='/images/slider-badging.jpg' alt='img' />
+        <img src='/images/slider-badging.jpg' alt='image' />
       </div>
       <div className='wrap'>
-        <img src='/images/slider-badging.jpg' alt='img' />
+        <img src='/images/slider-badging.jpg' alt='image' />
       </div>
     </Slider>
   )
