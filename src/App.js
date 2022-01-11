@@ -5,6 +5,7 @@ import './App.css'
 import Home from './component/home'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Detail from './component/detail'
+import Login from './component/login'
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Switch>
           <Route path='/detail'>
             <Detail />
+          </Route>
+          <Route path='/login'>
+            <Login />
           </Route>
           <Route path='/'>
             <Home />
